@@ -1,15 +1,13 @@
-const linkedIn = require("./index");
+const linkedIn = require('./index');
 
 const queryOptions = {
-  keyword: "HR",
-  location: "India",
-  dateSincePosted: "past Week",
-  jobType: "full time",
-  remoteFilter: "remote",
-  salary: "100000",
-  experienceLevel: "entry level",
-  limit: "1",
-  sortBy: "recent",
+  keyword: 'Director of Engineering',
+  location: 'United States',
+  dateSincePosted: 'past week',
+  jobType: 'full time',
+  remoteFilter: 'remote',
+  limit: '1',
+  sortBy: 'recent',
 };
 
 linkedIn.query(queryOptions).then((response) => {
